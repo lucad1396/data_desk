@@ -8,21 +8,23 @@ This repository is meant as a personal reference and learning tool, but also as 
 
 - `pandas_guide.ipynb` - Step-by-step guide to data manipulation with **Pandas**, covering:
 
-  - DataFrames, Series, and indexing
-  - Reading, inspecting & cleaning data
-  - Grouping, sorting, and aggregation
-  - Handling missing values and duplicates
-  - Transformations with `map`, `apply`, `replace`
-  - Feature engineering & preprocessing
-  - Merging, joining & concatenating datasets
-  - Bonus: Tips for large datasets
+  - 🧱 **Data structures**: DataFrames, Series, and indexing
+  - 📥 **Data input & inspection**: Reading, inspecting & cleaning data
+  - 📊 **Grouping & summarizing**: Sorting, grouping, and computing summary statistics
+  - ❓ **Missing data**: Handling missing values and duplicates
+  - 🔄 **Transformation**: Using `map`, `apply`, `replace`
+  - 🛠️ **Feature engineering & preprocessing**: Creating and refining features to improve analysis or modeling
+  - 🔗 **Combining data**: Merging, joining & concatenating datasets
+  - 🚀 **Performance tips**: Working with large datasets efficiently
 
-- `seaborn_guide.ipynb` - A guide to data visualization using Seaborn, including:
-  - Core plots: scatter, bar, histogram, box, violin
-  - Categorical vs continuous plotting
-  - Customizing styles and palettes
-  - Plotting distributions and correlations
-  - Combining plots (e.g. `pairplot`, `catplot`, `FacetGrid`)
+- `seaborn_guide.ipynb` - A structured guide to data visualization with **Seaborn**, organized by use case:
+
+  - 📈 **Trends**: Line plots for visualizing change over time (`lineplot`)
+  - 📊 **Relationships**: Explore connections between variables using bar plots, heatmaps, scatter plots, regression plots (`barplot`, `heatmap`, `scatterplot`, `regplot`, `lmplot`, `swarmplot`)
+  - 📉 **Distributions**: Understand variable distributions with histograms, KDEs, jointplots, displots, and more (`histplot`, `kdeplot`, `jointplot`, `displot`, `DataFrame.hist`)
+  - 🔁 **Faceting & Grouped Plots**: Visualize subgroups with `FacetGrid`, `lmplot(col=...)`, and grouped bars
+  - 📊 **Multivariate Patterns**: Summary overviews using `pairplot` and `countplot`
+  - 🧰 Tips on normalization, log scales, and figure-level vs axes-level plots
 
 - `datasets/` - Contains small datasets used in the notebooks (e.g. CSVs from seaborn, open datasets).
 
