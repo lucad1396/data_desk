@@ -26,6 +26,16 @@ This repository is meant as a personal reference and learning tool, but also as 
   - 📊 **Multivariate Patterns**: Summary overviews using `pairplot` and `countplot`
   - 🧰 Tips on normalization, log scales, and figure-level vs axes-level plots
 
+- `plotly_guide.ipynb` – An introduction to interactive data visualization with Plotly Express:
+  - ⚡ Create interactive plots quickly with `plotly.express`
+  - 🎯 Understand and choose the right Plotly renderer
+  - ⏱️ Explore line charts, animated bar and scatter plots for time series data
+  - 🧩 Use faceting for small multiples and richer insights
+  - 🎨 Customize colors, markers, layouts, and axes
+  - 💾 Export figures as HTML or static images
+  - 🌍 Real-world example: Canadian gasoline prices over time
+  - 📌 General tips for working with Plotly Express
+
 - `datasets/` - Contains small datasets used in the notebooks (e.g. CSVs from seaborn, open datasets).
 
 ## 🚀 Why This Exists
